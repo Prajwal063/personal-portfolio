@@ -1,8 +1,6 @@
 import React from "react";
-import vuetify from "../../../public/assets/vuetify.png";
-import java from "../../../public/assets/java.png";
+import java from "/public/assets/java.png";
 import javascript from "../../../public/assets/javascript.png";
-import materialui from "../../../public/assets/materialui.png";
 import mysql from "../../../public/assets/mysql.png";
 import nodejs from "../../../public/assets/nodejs.png";
 import oracle from "../../../public/assets/oracle.png";
@@ -44,6 +42,29 @@ const backend = ['Java', 'C#', '.NET', 'Node Js', 'Express Js', 'SpringBoot'];
 const database = ['MySql', 'MongoDB', 'PostgreSQL', 'Firebase', 'Elastic Search'];
 const devops = ['Github', 'Gitlab', 'Docker','GIT','AWS',];
 
+const images = {
+  hmtl: "/assets/html.png",
+   java: "/assets/java.png",
+ javascript : "/assets/javascript.png",
+ mysql : "/assets/mysql.png",
+ nodejs : "/assets/nodejs.png",
+ oracle : "/assets/oracle.png",
+ spring : "/assets/spring.png",
+ tailwind_css : "/assets/tailwind_css.png",
+ git : "/assets/git.png",
+ mongodb : "/assets/mongodb.png",
+ docker : "/assets/docker.png",
+ firebase : "/assets/firebase.png",
+ postgresql : "/assets/postgresql.png",
+ express : "/assets/express.png",
+ cshrap : "/assets/cshrap.png",
+ react : "/assets/react.png",
+ typescript : "/assets/typescript.png",
+ css : "/assets/css.png",
+ html : "/assets/html.png",
+ nextjs : "/assets/nextjs.png",
+
+}
 
 const Skills = ({ darkMode }) => {
   return (
@@ -119,78 +140,78 @@ const Skills = ({ darkMode }) => {
           <div className="flex-wrap flex space-x-8 md:space-x-5 animate-move-right-to-left p-10 items-center justify-center animate-bounce">
           <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={html}
+              src={images.html}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={css}
+              src={images.css}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={javascript}
+              src={images.javascript}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={typescript}
-            />
-
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={java}
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={cshrap}
+              src={images.typescript}
             />
 
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={git}
+              src={images.java}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={docker}
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={mysql}
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={mongodb}
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={nodejs}
-            />
-            <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={express}
+              src={images.cshrap}
             />
 
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={oracle}
+              src={images.git}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={firebase}
+              src={images.docker}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={spring}
+              src={images.mysql}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={react}
+              src={images.mongodb}
             />
             <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-              src={nextjs}
+              src={images.nodejs}
+            />
+            <img
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              src={images.express}
+            />
+
+            <img
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              src={images.oracle}
+            />
+            <img
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              src={images.firebase}
+            />
+            <img
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              src={images.spring}
+            />
+            <img
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              src={images.react}
+            />
+            <img
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              src={images.nextjs}
             />       
             <img
               className="w-[40px] h-[35px] md:w-[35px] md:h-[35px]"
-              src={tailwind_css}
+              src={images.tailwind_css}
             />
 
             

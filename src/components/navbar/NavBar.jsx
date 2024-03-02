@@ -28,6 +28,8 @@ const navItems = [
   },
 ];
 
+
+
 const NavBar = ({ toggleDarkMode, darkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);

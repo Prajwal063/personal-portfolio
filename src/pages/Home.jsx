@@ -7,7 +7,6 @@ import NavBar from "../components/navbar/NavBar";
 import Resume from "../components/resume/Resume";
 import Skills from "../components/skills/Skills";
 import Work from "../components/work/Work";
-// import scroll from "public/assets/scroll.png";
 import scroll from "../../public/assets/scroll.png"
 
 const Home = () => {
