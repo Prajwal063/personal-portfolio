@@ -12,7 +12,7 @@ export const data = [
     id: 1,
     img: "/assets/licensesManagement.png",
     title: "License Usage Management",
-    desc: "Developed a console application in C# leveraging OOPs principles for server retrieval, text mining, and data extraction. Stored information in a Microsoft Access database linked to PowerBI for visualization. Implemented task scheduling to automate processes, resulting in a 97% increase in efficiency and elimination of manual errors.",
+    desc: "A console application in C# leveraging OOPs principles for server retrieval, text mining, and data extraction. Stored information in a Microsoft Access database linked to PowerBI for visualization. Task scheduling to automate processes, resulting in a 97% increase in efficiency and elimination of manual errors.",
     link: "",
     git: "https://github.com/Prajwal063/license-usage-management",
   },
