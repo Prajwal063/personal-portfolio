@@ -42,10 +42,10 @@ export const data = [
   },
   {
     id: 6,
-    img: "/assets/weather.png",
+    img: "/assets/chat.png",
     title: "Chat Application",
     desc: "The project uses JavaScript, Axios, Cheerio, and Node.js to create a backend service API that retrieves climate news from various newspapers in JSON format. The backend provides three distinct routes for accessing the latest climate news, top headlines, and articles based on user-defined queries.",
-    link: "https://climate-news-api-mrzm.onrender.com/",
-    git: "https://github.com/Prajwal063/climate-news-api.git",
+    link: "https://chat-app-theta-five.vercel.app/",
+    git: "https://github.com/Prajwal063/Chat-App",
   },
 ];
