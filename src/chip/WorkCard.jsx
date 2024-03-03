@@ -18,7 +18,7 @@ const WorkCard = () => {
             className="flex flex-col justify-center items-center gap-4"
           >
             <POPUP className="img-content relative">
-              <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto md:h-[260px] md:w-[100%] md:bg-cover">
+              <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
                 <img
                   src={data.img}
                   alt={data.title}
@@ -29,7 +29,7 @@ const WorkCard = () => {
               <div
                 className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-auto sm:h-[260px] sm:w-[92%] p-4`}
               >
-                <p className=" text-black text-base leading-[1.4] text-justify w-[90%]">
+                <p className=" text-black text-base leading-[1.2] text-justify w-[90%] md:leading-[1] sm:leading-[1]">
                   {data.desc}
                 </p>
                 <div className=" flex items-center justify-center gap-4">

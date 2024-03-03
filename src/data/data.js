@@ -1,18 +1,18 @@
 export const data = [
 
   {
-    id: 1,
-    img: "/assets/movie.jpg",
+    id: 2,
+    img: "/assets/movies.png",
     title: "Movie Review Application",
-    desc: "Full-stack development of a movie review application Java and Spring Boot served as the backend, React for the front end, MongoDB for the database, that covered critical aspects like endpoint creation, configuration management, dependency handling, environment variable setup, testing, and front-end development.",
+    desc: "Full-stack development of a movie review application Java and Spring Boot served as the backend, React for the front end, MongoDB for the database, that covered critical aspects like endpoint creation, configuration management, dependency handling, environment variable setup, testing, and front-end.",
     link: "",
     git: "https://github.com/Prajwal063/",
   },
   {
-    id: 2,
+    id: 1,
     img: "/assets/licensesManagement.png",
     title: "License Usage Management",
-    desc: "Console Application using C#, OOPS and regex for server retrieval and text mining, extracting data, storing it in Microsoft Access database linked to PowerBI for visualization. Task scheduling automates data retrieval and processing tasks, improving efficiency by 97% eliminating manual intervention and human error.",
+    desc: "Developed a console application in C# leveraging OOPs principles for server retrieval, text mining, and data extraction. Stored information in a Microsoft Access database linked to PowerBI for visualization. Implemented task scheduling to automate processes, resulting in a 97% increase in efficiency and elimination of manual errors.",
     link: "",
     git: "https://github.com/Prajwal063/license-usage-management",
   },
