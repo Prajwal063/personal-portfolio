@@ -21,8 +21,8 @@ const Contact = () => {
         <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
           <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
             <div data-aos="zoom-in">
-              <h1 className="text-5xl font-bold sm:text-3xl">Get in touch</h1>
-              <h3 className="text-xl sm:text-lg">
+              <h1 className="text-5xl font-bold sm:text-3xl sm:mb-2 s,:mt-2 md:text-4xl md:mb-5">Get in touch</h1>
+              <h3 className="text-xl sm:text-lg md:text-lg">
                 For any questions or collaborations.
               </h3>
             </div>
@@ -31,7 +31,7 @@ const Contact = () => {
             <div
               data-aos="zoom-in"
               className="text-blue-500 font-extrabold text-4xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)]">
-      <       BsArrowRight className="md:rotate-90" />
+      <       BsArrowRight className="sm:rotate-90" />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ import { SiGmail } from "react-icons/si";
 const Hero = () => {
   return (
     <div id="home" className={` bg-gradient-to-r from-purple-100 to-blue-300 `}>
-      <div className=" container pt-5 h-[780px] md:h-[100vh] md:flex-col-reverse sm:h-[750px]  flex sm:flex-col-reverse sm:pt-0 ">
+      <div className=" container pt-5 h-[780px] md:h-[900px] md:flex-col-reverse sm:h-[750px] flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
