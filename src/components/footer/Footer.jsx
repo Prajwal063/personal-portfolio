@@ -12,7 +12,7 @@ const Footer = () => {
         <h2 data-aos="zoom-out" className=" font-bold text-4xl sm:text-2xl">
           Let's Talk
         </h2>
-        <div className=" flex items-center justify-center gap-8 sm:gap-5">
+        <div className=" flex items-center justify-center gap-8 sm:gap-3">
           
           <a
             data-aos="fade-up"
