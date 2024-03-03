@@ -17,7 +17,7 @@ const Footer = () => {
           <a
             data-aos="fade-up"
             data-aos-duration="1200"
-            href="tel:+1234567890"
+            href="tel:+91 9535771654"
             className="box font-small text-black  flex items-center justify-center flex-col">
             <FaPhoneAlt className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>Phone</p>
