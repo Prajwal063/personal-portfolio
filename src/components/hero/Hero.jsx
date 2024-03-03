@@ -16,12 +16,12 @@ import { SiGmail } from "react-icons/si";
 const Hero = () => {
   return (
     <div id="home" className={` bg-gradient-to-r from-purple-100 to-blue-300 `}>
-      <div className=" container mx-auto pt-5 h-[700px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
+      <div className=" container pt-5 h-[780px] md:h-[100vh] md:flex-col-reverse sm:h-[750px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
               data-aos="fade-up"
-              className=" text-5xl font-bold sm:text-[2rem]"
+              className=" text-5xl font-bold sm:text-[2rem] md:mt-10 sm:m-0"
             >
               Hello, I'm Prajwal P.
             </h2>
@@ -86,10 +86,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="right top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-          <div className="relative h-[88%] w-fit flex items-center sm:items-end">
+          <div className="relative h-[78%] w-fit flex items-center sm:items-end">
             <img
               data-aos="fade-up"
-              className="h-[80%] w-full object-none md:h-[95%] md:m-auto sm:m-0 rounded-lg shadow-lg border-0 border-gray-300"
+              className="h-[80%] w-full object-none md:h-[100%] md:m-0 sm:m-0 rounded-lg shadow-lg border-0"
               src={image}
               alt="mine"
               style={{borderRadius: '1rem' }}
