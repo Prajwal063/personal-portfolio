@@ -81,7 +81,7 @@ const Skills = ({ darkMode }) => {
         {/* content*/}
 
         {/* first div */}
-        <div className="flex md:flex-col left flex-1 flex items-center justify-center"> 
+        <div className="md:flex-col left flex-1 flex items-center justify-center"> 
 
           {/* bg margin */} {/* div boxes */}
           <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-5 "> 
@@ -135,82 +135,82 @@ const Skills = ({ darkMode }) => {
         <div
           // data-aos="fade-up"
           // data-aos-duration="1200"
-          className="container m-auto items-center justify-center mt-8 gap-8 md:gap-6 items-center justify-center"
+          className="container m-5%  mt-8 gap-8 md:gap-6 items-center justify-center "
         >
-          <div className="flex-wrap flex space-x-8 md:space-x-5 animate-move-right-to-left p-10 items-center justify-center animate-bounce">
+          <div className="flex-wrap flex space-x-8 md:space-x-5 p-10 items-center justify-center sm:space-x-3 sm:p-0">
           <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.html}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.css}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.javascript}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.typescript}
             />
 
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.java}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.cshrap}
             />
 
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.git}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.docker}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.mysql}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.mongodb}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.nodejs}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.express}
             />
 
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.oracle}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.firebase}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.spring}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.react}
             />
             <img
-              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.nextjs}
             />       
             <img
-              className="w-[40px] h-[35px] md:w-[35px] md:h-[35px]"
+              className="w-[40px] h-[35px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.tailwind_css}
             />
 
