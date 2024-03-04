@@ -11,16 +11,16 @@ const Resume = () => {
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
       {/* card*/}
-      <div className="card-wrapper w-[95%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
+      <div className="pt-5 card-wrapper w-[95%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
-            className=" w-[75%] p-5 py-12 sm:py-8 sm:w-full sm:p-2">
+            className=" w-[75%] p-5 py-8 sm:py-8 sm:w-full sm:p-2">
           
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-500 ">
               Experience
             </legend>
-            <div className=" relative">
+            <div className="relative">
               {/* design */}
               <div className="design flex absolute left-[-320px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 {/* <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
@@ -76,14 +76,14 @@ const Resume = () => {
         <div className="right flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
-            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+            className=" w-[80%] p-5 py-8 sm:py-8 sm:w-full sm:p-2"
           >
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-500">
               Education
             </legend>
             <div className=" relative">
               {/* design */}
-              <div className="design flex absolute left-[-120px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+              <div className="pt-5 design flex absolute left-[-120px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 {/* <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div> */}

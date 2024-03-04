@@ -137,7 +137,7 @@ const Skills = ({ darkMode }) => {
           // data-aos-duration="1200"
           className="container m-5%  mt-8 gap-8 md:gap-6 items-center justify-center "
         >
-          <div className="flex-wrap flex space-x-8 md:space-x-5 p-10 items-center justify-center sm:space-x-3 sm:p-0">
+          <div className="flex-wrap flex space-x-8 md:space-x-5 p-10 items-center justify-center sm:space-x-3 sm:p-0 sm:pb-2">
           <img
               className="w-[40px] h-[40px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]"
               src={images.html}

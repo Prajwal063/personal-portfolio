@@ -6,7 +6,7 @@ export const data = [
     title: "Movie Review Application",
     desc: "Full-stack development of a movie review application Java and Spring Boot served as the backend, React for the front end, MongoDB for the database, that covered critical aspects like endpoint creation, configuration management, dependency handling, environment variable setup, testing, and front-end.",
     link: "",
-    git: "https://github.com/Prajwal063/",
+    git: "https://github.com/Prajwal063/movie-review",
   },
   {
     id: 1,
@@ -28,7 +28,7 @@ export const data = [
     id: 5,
     img: "/assets/expenses.jpg",
     title: "Expense Tracker",
-    desc: "A web application designed using JavaScript, HTML, and CSS to track user's expenses. It allows users to add, edit, and delete transactions, categorize them into income or expenses, and calculates and displays their current balance dynamically. The application's interactive features help users manage their finances efficiently.",
+    desc: "A web application designed using JavaScript, HTML, and CSS to track user's expenses. It allows users to add, edit, and delete transactions, categorize them into income or expenses, calculates and displays their current balance dynamically. The application's interactive features help users manage their finances efficiently.",
     link: "https://wise-expense-calculator.vercel.app/",
     git: "https://github.com/Prajwal063/expense-calculator.git",
   },

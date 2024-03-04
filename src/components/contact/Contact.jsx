@@ -4,7 +4,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 
 const Contact = () => {
   return (
-    <div id="contact" className="container m-auto mt-16">
+    <div id="contact" className="container m-auto mt-10">
       {/* heading */}
       <div
         // data-aos="fade-up"
