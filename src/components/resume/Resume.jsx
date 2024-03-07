@@ -39,7 +39,7 @@ const Resume = () => {
                   June 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Currently employed at Tata Consultancy Services as a C1 Systems Engineer, specializing in website and mobile application planning and development. Maintained and updated 24 critical applications including databases, Elastic Search, and Chatbot, resulting in a 97% improvement in User Experience, while reducing webchat query wait times to under 10 seconds. Proficient in Linux, AIX, Soap UI, SQL Developer, Excel, Putty, and FileZilla. Utilized Java, OOP, and SQL for programming and optimization. Currently expanding skill set with Angular framework.
+                Currently employed at Tata Consultancy Services as a C1 Systems Engineer, specializing in website and mobile application planning and development. Administrated 24 critical applications including databases, Elastic Search, and Chatbot, resulting in a 97% improvement in User Experience, while reducing webchat query wait times to under 10 seconds. Proficient in Linux, AIX, Soap UI, SQL Developer, Excel, Putty, and FileZilla. Utilized Java, Data Structures and Algorithms, Object Oriented Programming principles, and SQL for programming and optimization. Currently expanding skill set with Angular framework.
                 </p>
               </div>
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-4">
@@ -53,7 +53,7 @@ const Resume = () => {
                   August 2022 - September 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Developed a C# console application for collecting and analyzing license usage data, stored in a Microsoft Access database linked to Power BI. Automated to run every 60 minutes, improving license utilization by 94% across 67 licenses. Utilized C#, .NET framework, Text Mining, Regex functions, Task Scheduling, Batch programming, and VBScript. Experienced in time management, adapting to new technologies, and on-site internship.
+                  Worked on C# console application for collecting and analyzing license usage data, stored in a Microsoft Access database linked to Power BI. Automated to run every 60 minutes, improving license utilization by 94% across 67 licenses. Utilized C#, .NET framework, Text Mining, Regex functions, Task Scheduling, Batch programming, and VBScript. Experienced in time management, adapting to new technologies, and on-site internship.
                 </p>
               </div>
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-4">
@@ -67,7 +67,7 @@ const Resume = () => {
                   September 2022 - Novemeber 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Developed a full-stack movie review application using Java and Spring Boot for the backend, React for the frontend, and MongoDB for the database. Managed critical aspects including endpoint creation, configuration management, dependency handling, environment variable setup, testing, and frontend development. Gain expertise in Java frameworks, server-side operations, and problem-solving during the first internship.
+                  Engaged in building a full-stack movie review application using Java and Spring Boot for the backend, React for the frontend, and MongoDB for the database. Handled critical aspects including endpoint creation, configuration management, dependency handling, environment variable setup, testing, and frontend development. Gain expertise in Java frameworks, server-side operations, and problem-solving during the first internship.
                 </p>
               </div>
             </div>

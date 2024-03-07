@@ -10,7 +10,7 @@ const about = () => {
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
   <p className="flex justify-content:normal text-gray-700 font-medium w-full sm:text-sm-center md:text-md-center text-justify">
-          Dynamic and motivated Computer Science and Engineering graduate with a passion for crafting exceptional websites. Eager to leverage strong technical skills and a commitment to lifelong learning in a dynamic work environment. Proven ability to adapt quickly to new technologies and deliver innovative solutions. Committed to excellence in web development and driven to contribute positively to challenging projects. Proficient in Data Structures and Algorithms, with a strong grasp of Object-Oriented Programming principles. Experienced in applying these concepts to develop robust and efficient solutions.
+          Versatile and motivated Computer Science and Engineering graduate with a passion for crafting exceptional websites. Eager to leverage strong technical skills and a commitment to lifelong learning in a dynamic work environment. Proven adaptability to new technologies and deliver innovative solutions. Committed to excellence in web development and driven to contribute positively to challenging projects. Proficient in Data Structures and Algorithms, with a strong grasp of Object-Oriented Programming principles and applying these concepts to develop robust and efficient solutions.
         </p>
       </div>
       

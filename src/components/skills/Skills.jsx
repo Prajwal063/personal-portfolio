@@ -37,9 +37,9 @@ import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
-const frontend = ['HTML','CSS','Tailwind','Javascript','ReactJS','NextJS','Bootstrap'];
+const frontend = ['HTML', 'CSS', 'Javascript','Typescript','Tailwind','ReactJS','NextJS','Bootstrap'];
 const backend = ['Java', 'C#', '.NET', 'Node Js', 'Express Js', 'SpringBoot'];
-const database = ['MySql', 'MongoDB', 'PostgreSQL', 'Firebase', 'Elastic Search'];
+const database = ['SQL', 'MongoDB', 'PostgreSQL', 'Firebase', 'Elastic Search'];
 const devops = ['Github', 'Gitlab', 'Docker','GIT','AWS',];
 
 const images = {
@@ -90,7 +90,7 @@ const Skills = ({ darkMode }) => {
             <div className="bg-white-200 w-64 h-64 p-2 m-0 text-[1.1rem] text-justify break-words overflow-auto ">
               <h1>Frontend</h1>
                 {frontend.map((item, index) => (
-                  <div key={index} className="text-[.9rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
+                  <div key={index} className="text-[.8rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
                     {item}
                   </div>
                 ))}
@@ -101,7 +101,7 @@ const Skills = ({ darkMode }) => {
           <div className="bg-white-200 w-64 h-64 p-2 m-0 text-[1.1rem] text-justify break-words overflow-auto ">
               <h1>Backend</h1>
                 {backend.map((item, index) => (
-                  <div key={index} className="text-[.9rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
+                  <div key={index} className="text-[.8rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
                     {item}
                   </div>
                 ))}
@@ -112,7 +112,7 @@ const Skills = ({ darkMode }) => {
           <div className="bg-white-200 w-64 h-64 p-2 m-0 text-[1.1rem] text-justify break-words overflow-auto">
               <h1>Database</h1>
                 {database.map((item, index) => (
-                  <div key={index} className="text-[.9rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
+                  <div key={index} className="text-[.8rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
                     {item}
                   </div>
                 ))}
@@ -123,7 +123,7 @@ const Skills = ({ darkMode }) => {
             <div className="bg-white-200 w-64 h-64 p-2 m-0 text-[1.1rem] text-justify break-words overflow-auto">
               <h1>Devops</h1>
                 {devops.map((item, index) => (
-                  <div key={index} className="text-[.9rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
+                  <div key={index} className="text-[.8rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
                     {item}
                   </div>
                 ))}
