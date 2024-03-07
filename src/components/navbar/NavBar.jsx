@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
-import resumePDF from "../../../public/assets/Resume.pdf";
+import resumePDF from "../../../public/assets/Prajwal_P_Resume.pdf";
 
 
 const navItems = [

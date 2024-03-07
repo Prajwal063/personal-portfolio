@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../../public/assets/Resume.pdf";
+import resumePDF from "../../../public/assets/Prajwal_P_Resume.pdf";
 import image from "../../../public/assets/imagePortfolio.png"
 import { SiGmail } from "react-icons/si";
 
@@ -54,7 +54,7 @@ const Hero = () => {
               download
             >
               <div className="flex items-center gap-1">
-                Resume <FiDownload />
+              Resume <FiDownload />
               </div>
             </a>
           </div>
