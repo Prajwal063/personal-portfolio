@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:text-[8px] text-gray-600">
-          | Copyright &copy; <span>Prajwal Portfolio </span>  ©️ All rights reserved
+          | Copyright &copy; All rights reserved
           <a href="#"></a> |
         </div>
       </div>
