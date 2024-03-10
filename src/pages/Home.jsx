@@ -12,9 +12,9 @@ import scroll from "../../public/assets/scroll.png"
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
 
-  function toggleDarkMode() {
-    setDarkMode((prevDarkMode) => !prevDarkMode);
-  }
+  // function toggleDarkMode() {
+  //   setDarkMode((prevDarkMode) => !prevDarkMode);
+  // }
 
   function scrollToTop() {
     window.scrollTo({top: 0, behavior: "smooth"})
@@ -23,14 +23,14 @@ const Home = () => {
   return (
     <>
     
-      <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <About darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <NavBar/>
+      <Hero/>
+      <About/>
+      <Skills/>
+      <Work/>
+      <Resume/>
+      <Contact/>
+      <Footer/>
       <div className="fixed bottom-4 right-4">
 
         {/*Button for dark and light mode*/}
