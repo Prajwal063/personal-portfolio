@@ -54,7 +54,7 @@ const Hero = () => {
               download
             >
               <div className="flex items-center gap-1">
-              Resume <FiDownload />
+              Resume <FiDownload name="Prajwal_P_Resume" />
               </div>
             </a>
           </div>

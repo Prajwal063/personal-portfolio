@@ -80,6 +80,8 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             <HiMenu size={25} />
           </button>
 
+          {/* animation glitch is here */}
+          
           <ul
             className={`flex items-center space-x-12 md:space-x-0 sm:space-x-0 ${
               !isOpen ? "md:flex" : "md:right-[0%] " 
