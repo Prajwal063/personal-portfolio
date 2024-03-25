@@ -82,13 +82,13 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
 
           <ul
             className={`flex items-center space-x-12 md:space-x-0 sm:space-x-0 ${
-              !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white sm:hidden`}
+              !isOpen ? "md:flex" : "md:right-[0%] " 
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white`}
           >
             {/* Use a button tag for better accessibility */}
             <button
               onClick={toggleNav}
-              className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
+              className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto `}
             >
               <RxCross2 size={25} />
             </button>
