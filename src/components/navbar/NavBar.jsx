@@ -75,7 +75,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           {/* hamburger */}
           <button
             onClick={toggleNav}
-            className="cursor-pointer text-2xl hidden md:block"
+            className="cursor-pointer text-2xl hidden md:block sm:hidden"
           >
             <HiMenu size={25} />
           </button>
@@ -83,7 +83,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           <ul
             className={`flex items-center space-x-12 md:space-x-0 sm:space-x-0 ${
               !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white sm:hidden`}
           >
             {/* Use a button tag for better accessibility */}
             <button
