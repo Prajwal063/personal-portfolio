@@ -28,7 +28,7 @@ export const data = [
     id: 5,
     img: "/assets/happenify.png",
     title: "Happenify",
-    desc: "Next.js 14 events platform, enabling CRUD operations with Node.js and TypeScript. Utilized Stripe for payments, manage events, purchase tickets, and initiate your own. Enhanced interactions with React Hook Form and TailwindCSS. Ensure robust validation and image uploads with Zod, Uploadthing, and Shadcn.",
+    desc: "Utilized Next.js 14 events platform with CRUD operations using Node.js and TypeScript. Stripe for payments, event management, ticketing, and creation. Improve interactions with React Hook Form and TailwindCSS. Ensure validation and uploads with Zod, Uploadthing, and Shadcn.",
     link: "https://happenify.vercel.app/",
     git: "https://github.com/Prajwal063/happenify",
   },
