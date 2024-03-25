@@ -26,11 +26,11 @@ export const data = [
   },
   {
     id: 5,
-    img: "/assets/expenses.jpg",
-    title: "Expense Tracker",
-    desc: "A web application designed using JavaScript, HTML, and CSS to track user's expenses. It allows users to add, edit, and delete transactions, categorize them into income or expenses, calculates and displays their current balance dynamically. The application's interactive features help users manage their finances efficiently.",
-    link: "https://wise-expense-calculator.vercel.app/",
-    git: "https://github.com/Prajwal063/expense-calculator.git",
+    img: "/assets/happenify.png",
+    title: "Happenify",
+    desc: "Next.js 14 in all-in-one events platform. Seamlessly manage events with Node.js and TypeScript. Utilized Stripe for effortless payments you have the capability to purchase tickets for any event or even initiate and manage own events. Utilized React Hook Form and TailwindCSS for seamless interactions. Ensure robust validation and image uploads with Zod, Uploadthing and Shadcn.",
+    link: "https://happenify.vercel.app/",
+    git: "https://github.com/Prajwal063/happenify",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const data = [
     img: "/assets/chat.png",
     title: "Chat Application",
     desc: "Real-time chat app with React front-end, NodeJS & Socket.io back-end, showcasing proficiency in full-stack development. Demonstrated expertise in implementing web sockets for seamless, instantaneous communication between users, ensuring a smooth and interactive user experience.",
-    link: "https://chat-app-theta-five.vercel.app/",
+    link: "https://chat-app-secure.vercel.app/",
     git: "https://github.com/Prajwal063/Chat-App",
   },
 ];
