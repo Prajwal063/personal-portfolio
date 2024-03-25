@@ -27,7 +27,7 @@ const WorkCard = () => {
               </div>
 
               <div
-                className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-auto sm:h-[260px] sm:w-[92%] p-4`}
+                className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-auto sm:h-[260px] sm:w-[92%] p-1`}
               >
                 <p className=" text-black text-base leading-[1.2] text-justify w-[90%] md:leading-[1] sm:leading-[1]">
                   {data.desc}
