@@ -1,43 +1,6 @@
 import React from "react";
-import java from "/public/assets/java.png";
-import javascript from "../../../public/assets/javascript.png";
-import mysql from "../../../public/assets/mysql.png";
-import nodejs from "../../../public/assets/nodejs.png";
-import oracle from "../../../public/assets/oracle.png";
-import spring from "../../../public/assets/spring.png";
-import tailwind_css from "../../../public/assets/tailwind_css.png";
-import git from "../../../public/assets/git.png";
-import mongodb from "../../../public/assets/mongodb.png";
-import docker from "../../../public/assets/docker.png";
-import firebase from "../../../public/assets/firebase.png";
-import postgresql from "../../../public/assets/postgresql.png";
-import express from "../../../public/assets/express.png";
-import cshrap from "../../../public/assets/cshrap.png";
-import react from "../../../public/assets/react.png";
-import typescript from "../../../public/assets/typescript.png";
-import css from "../../../public/assets/css.png";
-import html from "../../../public/assets/html.png";
-import nextjs from "../../../public/assets/nextjs.png";
 
-
-import WorkCard from "../../chip/WorkCard";
-
-
-import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
-} from "react-icons/si";
-import { GrCode } from "react-icons/gr";
-import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaVuejs } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io";
-
-const frontend = ['HTML', 'CSS', 'Javascript','Typescript','Tailwind','ReactJS','NextJS','Bootstrap'];
+const frontend = ['HTML', 'CSS', 'Javascript','Typescript','Tailwind','ReactJS','NextJS','Bootstrap', 'AngularJS'];
 const backend = ['Java', 'C#', '.NET', 'Node Js', 'Express Js', 'SpringBoot'];
 const database = ['SQL', 'MongoDB', 'PostgreSQL', 'Firebase', 'Elastic Search'];
 const devops = ['Github', 'Gitlab', 'Docker','GIT','AWS',];
@@ -66,7 +29,7 @@ const images = {
 
 }
 
-const Skills = ({ darkMode }) => {
+const Skills = () => {
   return (
     <div id="skills">
       <div className=" container m-auto  mt-16">

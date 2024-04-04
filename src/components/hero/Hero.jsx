@@ -39,7 +39,7 @@ const Hero = () => {
             >
               Systems Engineer, C1 at Tata Consultancy Services.
             </p>
-            
+
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             {/* <a
@@ -50,7 +50,7 @@ const Hero = () => {
             </a> */}
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] text-white bg-black border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
+              className="flex items-center gap-2 border- text-[1.1rem] text-white bg-black border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
               download
             >
               <div className="flex items-center gap-1">
@@ -58,7 +58,7 @@ const Hero = () => {
               </div>
             </a>
           </div>
-          <div className="icons flex mt-5">
+          <div className="icons flex mt-2">
             <ul
               data-aos="fade-up"
               data-aos-duration="1500"
@@ -67,19 +67,19 @@ const Hero = () => {
               <li>
                 <a href="https://github.com/Prajwal063">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
+                  <AiFillGithub className=" h-[2rem] w-[2rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/prajwal-p-26251a1b8/">
                   {" "}
-                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
+                  <FaLinkedinIn className=" h-[2rem] w-[2rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
                 <a href="mailto:prajwalpr2@gmail.com">
                   {" "}
-                  <SiGmail className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiGmail className=" h-[2rem] w-[2rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>

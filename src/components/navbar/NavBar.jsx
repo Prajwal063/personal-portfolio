@@ -5,6 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 import resumePDF from "../../../public/assets/Prajwal_P_Resume.pdf";
 
 
+
 const navItems = [
   {
     id: 0,
@@ -65,7 +66,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             onClick={() => window.scrollTo(0, 0)}
             to="/"
             className="text-3xl font-bold sm:text-3xl">
-            Prajwal.
+              Prajwal P
           </Link>
         </div>
         <div
