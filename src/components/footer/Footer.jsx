@@ -61,8 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:text-[8px] text-gray-600">
-          | Copyright &copy; All rights reserved
-          <a href="#"></a> |
+          | Copyright &copy; All rights reserved |
         </div>
       </div>
     </div>
