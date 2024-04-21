@@ -7,15 +7,35 @@ import { Link } from "react-router-dom";
 
 const WorkCard = () => {
   const reversedData = [...data].reverse();
+  const [currentPage, setCurrentPage] = useState(1);
+  const cardsPerPage = 3;
+
+  const indexOfLastCard = currentPage * cardsPerPage;
+  const indexOfFirstCard = indexOfLastCard - cardsPerPage;
+  const currentCards = reversedData.slice(indexOfFirstCard, indexOfLastCard);
+
+  const totalPages = Math.ceil(data.length / cardsPerPage);
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    scrollToWorks();
+  };
+
+  const scrollToWorks = () => {
+    const worksElement = document.getElementById("works");
+    if (window.innerWidth <= 640 && worksElement) {
+      worksElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <>
-      {reversedData.map((data) => {
+      {currentCards.map((data) => {
         return (
           <div
             data-aos="zoom-in"
             key={data.id}
-            className="flex flex-col justify-center items-center gap-4"
+            className="flex flex-col justify-center items-center gap-2"
           >
             <POPUP className="img-content relative">
               <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
@@ -59,6 +79,23 @@ const WorkCard = () => {
           </div>
         );
       })}
+
+      {/* Pagination */}
+      <div className="flex justify-center mt-4">
+        <div className="flex flex-wrap items-center justify-center">
+          {Array.from({ length: totalPages }, (_, index) => (
+            <button
+              key={index}
+              onClick={() => handlePageChange(index + 1)}
+              className={`px-3 py-1 mx-1 bg-gray-200 rounded-md ${
+                currentPage === index + 1 ? "bg-gray-500" : ""
+              }`}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+      </div>
     </>
   );
 };

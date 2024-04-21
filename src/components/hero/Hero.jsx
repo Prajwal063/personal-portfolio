@@ -33,7 +33,7 @@ const Hero = () => {
               className="text-blue-500 text-4xl font-bold sm:text-3xl"
             />
             <p
-              // data-aos="fade-up"
+              data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-4/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
               Systems Engineer, C1 at Tata Consultancy Services.

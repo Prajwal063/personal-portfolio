@@ -5,7 +5,7 @@ const Resume = () => {
     <div id="qualification" className=" container m-auto   mt-16">
       {/* heading */}
       <div data-aos="fade-up" className="relative mb-5">
-        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
+        <h3 className=" text-3xl font-black text-gray-700 sm:text-2xl">
           Qualification
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[100%] bg-gray-300 block"></span>
