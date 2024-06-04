@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="sm:text-[8px] text-gray-600">
-          | Copyright &copy; All rights reserved |
+          | 2024 &copy; All rights reserved |
         </div>
       </div>
     </div>

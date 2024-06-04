@@ -80,14 +80,17 @@ const WorkCard = () => {
         );
       })}
 
+
+
+{/* functional but not center buttons */}
       {/* Pagination */}
-      <div className="flex justify-center mt-4">
-        <div className="flex flex-wrap items-center justify-center">
+      <div className="mt-4 center">
+        <div className="center">
           {Array.from({ length: totalPages }, (_, index) => (
             <button
               key={index}
               onClick={() => handlePageChange(index + 1)}
-              className={`px-3 py-1 mx-1 bg-gray-200 rounded-md ${
+              className={`px-3 py-1 mx-1 bg-gray-200 rounded-md grid-cols-2 justify-center ${
                 currentPage === index + 1 ? "bg-gray-500" : ""
               }`}
             >
