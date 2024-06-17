@@ -30,7 +30,7 @@ const Work = () => {
     <button
       key={index}
       onClick={() => handlePageChange(index + 1)}
-      className={`px-3 py-1 mx-1 bg-gray-200 rounded-md ${currentPage === index + 1 ? 'bg-gray-600 text-white' : 'bg-gray-200 text-gray-600 hover:bg-gray-300'}`}
+      className={`px-4 py-2 mx-1 my-2 bg-gray-200 rounded-md ${currentPage === index + 1 ? 'bg-gray-600 text-white' : 'bg-gray-200 text-gray-600 hover:bg-gray-300'}`}
     >
       {index + 1}
     </button>
