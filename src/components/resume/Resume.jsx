@@ -1,8 +1,10 @@
 import React from "react";
 
+import { qualifications, education } from "../../data/data";
+
 const Resume = () => {
   return (
-    <div id="qualification" className=" container m-auto   mt-16">
+    <div id="qualification" className="container m-0 mt-16">
       {/* heading */}
       <div data-aos="fade-up" className="relative mb-5">
         <h3 className=" text-3xl font-black text-gray-700 sm:text-2xl">
@@ -10,6 +12,7 @@ const Resume = () => {
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[100%] bg-gray-300 block"></span>
       </div>
+
       {/* card*/}
       <div className="pt-5 card-wrapper w-[95%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex items-center justify-center">
@@ -20,15 +23,11 @@ const Resume = () => {
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-500 ">
               Experience
             </legend>
+
             <div className="relative">
-              {/* design */}
-              <div className="design flex absolute left-[-320px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                {/* <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
-                <div className="line w-[600px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div> */}
-              </div>
-              {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-4">
+              <div className="flex absolute left-[-320px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] "></div>
+
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)]    p-3 rounded-lg m-0 mb-6 ">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Systems Engineer, C1.
                 </h1>
@@ -42,7 +41,23 @@ const Resume = () => {
                 Currently employed at Tata Consultancy Services as a C1 Systems Engineer, specializing in website and mobile application planning and development. Administrated 24 critical applications including databases, Elastic Search, and Chatbot, resulting in a 97% improvement in User Experience, while reducing webchat query wait times to under 10 seconds. Proficient in Linux, AIX, Soap UI, SQL Developer, Excel, Putty, and FileZilla. Utilized Java, Data Structures and Algorithms, Object Oriented Programming principles, and SQL for programming and optimization. Currently expanding skill set with Angular framework.
                 </p>
               </div>
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-4">
+
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)]    p-3 rounded-lg m-0 mb-6">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                Full Stack Developer.
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                CosmicTech.io
+                </span>
+                <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
+                  November 2023 - Present
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                Designed and developed responsive user interface from scratch using NextJS, Tailwind CSS, and JavaScript. Currently, working on backend development of the project. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Continuously learning new features in NextJS and staying updated on emerging technologies
+                </p>
+              </div>
+
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-0 mb-6">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Software Developer Intern.
                 </h1>
@@ -56,7 +71,8 @@ const Resume = () => {
                   Worked on C# console application for collecting and analyzing license usage data, stored in a Microsoft Access database linked to Power BI. Automated to run every 60 minutes, improving license utilization by 94% across 67 licenses. Utilized C#, .NET framework, Text Mining, Regex functions, Task Scheduling, Batch programming, and VBScript. Experienced in time management, adapting to new technologies, and on-site internship.
                 </p>
               </div>
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-4">
+
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-0 mb-6">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Full Stack Developer Intern.
                 </h1>
@@ -73,6 +89,7 @@ const Resume = () => {
             </div>
           </fieldset>
         </div>
+
         <div className="right flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
@@ -82,14 +99,9 @@ const Resume = () => {
               Education
             </legend>
             <div className=" relative">
-              {/* design */}
-              <div className="pt-5 design flex absolute left-[-120px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                {/* <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div> */}
+              <div className="pt-5 design flex absolute left-[-120px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] "> 
               </div>
-              {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-5">
+              <div className=" flex flex-col gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-0 mb-6">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   B.E, Computer Science and Engineering.
                 </h1>
@@ -107,12 +119,11 @@ const Resume = () => {
           </fieldset>
         </div>
       </div>
+
     </div>
   );
 };
 
 export default Resume;
 
-// As a recent graduate with a Bachelor's degree in Computer Science and Engineering from JSS Academy of Technical Education, Bengaluru, I am driven by a strong passion for software development. Specializing in object-oriented programming languages such as Java and C#, alongside a keen interest in web development, I am committed to continuous learning and strive to devise innovative solutions. With a dedicated work ethic and a focus on personal and professional growth, I have consistently achieved success.
 
-// Proficient in backend technologies including Node.js, Express.js, and MongoDB, I possess a diverse skill set. I excel in programming languages such as Java, C#, JavaScript, and Python, and have experience with frameworks such as Express, .NET, and Spring. Additionally, I have a solid understanding of Data Structures and Algorithms and am well-versed in Object-Oriented Programming concepts.

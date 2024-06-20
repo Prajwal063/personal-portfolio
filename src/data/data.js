@@ -49,3 +49,35 @@ export const data = [
     git: "https://github.com/Prajwal063/Chat-App",
   },
 ];
+
+export const qualifications = [
+  {
+    id: 1,
+    title: "Systems Engineer, C1.",
+    organization: "Tata Consultancy Services",
+    date: "June 2023 - Present",
+    description: "Currently employed at Tata Consultancy Services as a C1 Systems Engineer...",
+  },
+  {
+    id: 2,
+    title: "Software Developer Intern.",
+    organization: "Kennametal India Limited.",
+    date: "August 2022 - September 2022",
+    description: "Worked on C# console application for collecting and analyzing license usage data...",
+  },
+  {
+    id: 3,
+    title: "Full Stack Developer Intern.",
+    organization: "Exposys Data Labs.",
+    date: "September 2022 - November 2022",
+    description: "Engaged in building a full-stack movie review application using Java and Spring Boot...",
+  },
+];
+
+export const education = {
+  title: "B.E, Computer Science and Engineering.",
+  institution: "JSS Academy of Technical Education, Bengaluru.",
+  date: "2019 - 2023",
+  cgpa: "8.45",
+  description: "Recent graduate holding a Bachelor's in Computer Science and Engineering...",
+};
