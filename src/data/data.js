@@ -1,5 +1,5 @@
 export const data = [
-
+  
   {
     id: 2,
     img: "/assets/movies.png",
@@ -8,8 +8,20 @@ export const data = [
     link: "",
     git: "https://github.com/Prajwal063/movie-review",
   },
+  
+  
+  
+  
   {
-    id: 1,
+    id: 4,
+    img: "/assets/weather.png",
+    title: "Climate News Api",
+    desc: "The project uses JavaScript, Axios, Cheerio, and Node.js to create a backend service API that retrieves climate news from various newspapers in JSON format. The backend provides three distinct routes for accessing the latest climate news, top headlines, and articles based on user-defined queries.",
+    link: "https://climate-news-api-mrzm.onrender.com/",
+    git: "https://github.com/Prajwal063/climate-news-api.git",
+  },
+  {
+    id: 3,
     img: "/assets/licensesManagement.png",
     title: "License Usage Management",
     desc: "A console application in C# leveraging OOPs principles for server retrieval, text mining, and data extraction. Stored information in a Microsoft Access database linked to PowerBI for visualization. Task scheduling to automate processes, resulting in a 97% increase in efficiency and elimination of manual errors.",
@@ -17,12 +29,12 @@ export const data = [
     git: "https://github.com/Prajwal063/license-usage-management",
   },
   {
-    id: 3,
-    img: "/assets/firebaseauth.png",
-    title: "Care Taker",
-    desc: "Community-centered platform connecting individuals with orphanages and old age homes, facilitating visits, donations, event organization including volunteer sign-ups, resource sharing, virtual tours, and educational initiatives. The platform enables users to engage in fundraisers, birthday celebrations, and awareness campaigns.",
-    link: "https://care-taker.vercel.app/",
-    git: "https://github.com/Prajwal063/Care-Taker",
+    id: 6,
+    img: "/assets/chat.png",
+    title: "Chat Application",
+    desc: "Real-time chat app with React front-end, NodeJS & Socket.io back-end, showcasing proficiency in full-stack development. Demonstrated expertise in implementing web sockets for seamless, instantaneous communication between users, ensuring a smooth and interactive user experience.",
+    link: "https://chat-app-secure.vercel.app/",
+    git: "https://github.com/Prajwal063/Chat-App",
   },
   {
     id: 5,
@@ -33,20 +45,12 @@ export const data = [
     git: "https://github.com/Prajwal063/happenify",
   },
   {
-    id: 4,
-    img: "/assets/weather.png",
-    title: "Climate News Api",
-    desc: "The project uses JavaScript, Axios, Cheerio, and Node.js to create a backend service API that retrieves climate news from various newspapers in JSON format. The backend provides three distinct routes for accessing the latest climate news, top headlines, and articles based on user-defined queries.",
-    link: "https://climate-news-api-mrzm.onrender.com/",
-    git: "https://github.com/Prajwal063/climate-news-api.git",
-  },
-  {
-    id: 6,
-    img: "/assets/chat.png",
-    title: "Chat Application",
-    desc: "Real-time chat app with React front-end, NodeJS & Socket.io back-end, showcasing proficiency in full-stack development. Demonstrated expertise in implementing web sockets for seamless, instantaneous communication between users, ensuring a smooth and interactive user experience.",
-    link: "https://chat-app-secure.vercel.app/",
-    git: "https://github.com/Prajwal063/Chat-App",
+    id: 1,
+    img: "/assets/careTaker.png",
+    title: "Care Taker",
+    desc: "Community-centered platform connecting individuals with orphanages and old age homes, facilitating visits, donations, event organization including volunteer sign-ups, resource sharing, virtual tours, and educational initiatives. The platform enables users to engage in fundraisers, birthday celebrations, and awareness campaigns.",
+    link: "https://care-taker.vercel.app/",
+    git: "https://github.com/Prajwal063/Care-Taker",
   },
 ];
 
