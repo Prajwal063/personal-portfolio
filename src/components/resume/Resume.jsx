@@ -38,7 +38,7 @@ const Resume = () => {
                   June 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Currently employed at Tata Consultancy Services as a C1 Systems Engineer, specializing in website and mobile application planning and development. Administrated 24 critical applications including databases, Elastic Search, and Chatbot, resulting in a 97% improvement in User Experience, while reducing webchat query wait times to under 10 seconds. Proficient in Linux, AIX, Soap UI, SQL Developer, Excel, Putty, and FileZilla. Utilized Java, Data Structures and Algorithms, Object Oriented Programming principles, and SQL for programming and optimization. Currently expanding skill set with Angular framework.
+                Specializing in full-stack development and RESTful services. I bring extensive expertise in developing Java REST APIs from scratch, applying SDLC and Agile methodologies, and prioritizing code optimization to boost system efficiency. Proficient in Eclipse, Linux, AIX, Soap UI, SQL Developer, and Putty. Skilled in Java programming, Data Structures, Object-Oriented Programming (OOP) principles, MySQL, and MS SQL databases. Currently advancing my proficiency with Angular JS to broaden my technical capabilities and stay at the forefront of industry trends.
                 </p>
               </div>
 
@@ -53,7 +53,7 @@ const Resume = () => {
                   November 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Designed and developed responsive user interface from scratch using NextJS, Tailwind CSS, and JavaScript. Currently, working on backend development of the project. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Continuously learning new features in NextJS and staying updated on emerging technologies
+                Designed and developed responsive user interface from scratch using NextJS, Tailwind CSS, and JavaScript. Currently, working on backend development of the project. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Continuously learning new features in NextJS and staying updated on emerging technologies.
                 </p>
               </div>
 
@@ -80,7 +80,7 @@ const Resume = () => {
                   Exposys Data Labs. 
                 </span>
                 <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
-                  September 2022 - Novemeber 2022
+                  October 2022 - December 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   Engaged in building a full-stack movie review application using Java and Spring Boot for the backend, React for the frontend, and MongoDB for the database. Handled critical aspects including endpoint creation, configuration management, dependency handling, environment variable setup, testing, and frontend development. Gain expertise in Java frameworks, server-side operations, and problem-solving during the first internship.
@@ -89,7 +89,7 @@ const Resume = () => {
             </div>
           </fieldset>
         </div>
-
+      
         <div className="right flex items-center justify-center">
           <fieldset
             data-aos="zoom-in"
