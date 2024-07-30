@@ -19,10 +19,10 @@ export const data = [
   {
     id: 3,
     img: "/assets/firebaseauth.png",
-    title: "Firebase-Next-Auth",
-    desc: "Professionally contributed to a Next.js 13 project integrating Firebase and Google Authentication for streamlined user authentication. Implemented Tailwind CSS for enhanced styling. Notable contribution to the Cosmitech website. Successfully deployed project for seamless functionality.",
-    link: "https://firebase-nextjs-auth-demo.vercel.app/",
-    git: "https://github.com/Prajwal063/next-auth.git",
+    title: "Care Taker",
+    desc: "Community-centered platform connecting individuals with orphanages and old age homes, facilitating visits, donations, event organization including volunteer sign-ups, resource sharing, virtual tours, and educational initiatives. The platform enables users to engage in fundraisers, birthday celebrations, and awareness campaigns.",
+    link: "https://care-taker.vercel.app/",
+    git: "https://github.com/Prajwal063/Care-Taker",
   },
   {
     id: 5,
