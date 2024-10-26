@@ -16,10 +16,10 @@ const SkillCard = ({ title, skills, images }) => {
 };
 
 const Skills = () => {
-  const frontendSkills = ['HTML', 'CSS', 'Javascript', 'Typescript', 'Tailwind', 'ReactJS', 'NextJS', 'Bootstrap', 'AngularJS'];
-  const backendSkills = ['Java', 'C#', '.NET', 'Node Js', 'Express Js', 'SpringBoot'];
-  const databaseSkills = ['SQL', 'MongoDB', 'PostgreSQL', 'Firebase', 'Elastic Search'];
-  const devopsSkills = ['Github', 'Gitlab', 'Docker', 'GIT', 'AWS'];
+  const frontendSkills = ['Java', 'JavaScript', 'TypeScript', 'C#', 'SQL', 'LaTeX'];
+  const backendSkills = ['React.js', 'Next.js', 'Node.js', 'Express.js', 'Spring Boot', 'Mongoose', 'Bootstrap', 'Tailwind', 'RESTEasy'];
+  const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'Firebase', 'Firebase'];
+  const devopsSkills = ['Github', 'Gitlab', 'Git', 'GitHub Actions', 'Jenkins', 'CI/CD', 'Maven', 'REST APIs', 'Soap UI', 'Postman'];
 
   const images = {
     java: "/assets/java.png",
@@ -56,10 +56,10 @@ const Skills = () => {
         {/* content*/}
         <div className="md:flex-col left flex-1 flex items-center justify-center">
           {/* skill cards */}
-          <SkillCard title="Frontend" skills={frontendSkills} images={images} />
-          <SkillCard title="Backend" skills={backendSkills} images={images} />
+          <SkillCard title="Languages" skills={frontendSkills} images={images} />
+          <SkillCard title="Libraries" skills={backendSkills} images={images} />
           <SkillCard title="Database" skills={databaseSkills} images={images} />
-          <SkillCard title="Devops" skills={devopsSkills} images={images} />
+          <SkillCard title="Others" skills={devopsSkills} images={images} />
         </div>
 
         {/* icons */}
