@@ -18,7 +18,7 @@ const SkillCard = ({ title, skills, images }) => {
 const Skills = () => {
   const frontendSkills = ['Java', 'JavaScript', 'TypeScript', 'C#', 'SQL', 'LaTeX'];
   const backendSkills = ['React.js', 'Next.js', 'Node.js', 'Express.js', 'Spring Boot', 'Mongoose', 'Bootstrap', 'Tailwind', 'RESTEasy'];
-  const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'MySQL', 'Firebase', 'Firebase'];
+  const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'MySQL', 'Firebase'];
   const devopsSkills = ['Github', 'Gitlab', 'Git', 'GitHub Actions', 'Jenkins', 'CI/CD', 'Maven', 'REST APIs', 'Soap UI', 'Postman'];
 
   const images = {
@@ -30,16 +30,16 @@ const Skills = () => {
     tailwind_css: "/assets/tailwind_css.png",
     git: "/assets/git.png",
     mongodb: "/assets/mongodb.png",
-    docker: "/assets/docker.png",
+    resteasy: "/assets/resteasy.png",
     firebase: "/assets/firebase.png",
     postgresql: "/assets/postgresql.png",
     express: "/assets/express.png",
     cshrap: "/assets/cshrap.png",
     react: "/assets/react.png",
     typescript: "/assets/typescript.png",
-    css: "/assets/css.png",
     html: "/assets/html.png",
     nextjs: "/assets/nextjs.png",
+    jenkins: "/assets/jenkins-original.svg"
   };
 
   return (
