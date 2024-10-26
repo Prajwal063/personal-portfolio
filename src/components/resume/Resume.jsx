@@ -21,7 +21,7 @@ const Resume = () => {
             className=" w-[75%] p-5 py-8 sm:py-8 sm:w-full sm:p-2">
           
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-500 ">
-              Experience
+            Professional Experience
             </legend>
 
             <div className="relative">
@@ -38,7 +38,7 @@ const Resume = () => {
                   June 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Specializing in full-stack development and RESTful services. I bring extensive expertise in developing Java REST APIs from scratch, applying SDLC and Agile methodologies, and prioritizing code optimization to boost system efficiency. Proficient in Eclipse, Linux, AIX, Soap UI, SQL Developer, and Putty. Skilled in Java programming, Data Structures, Object-Oriented Programming (OOP) principles, MySQL, and MS SQL databases. Currently advancing my proficiency with Angular JS to broaden my technical capabilities and stay at the forefront of industry trends.
+                Specialized in full-stack development and RESTful services, with experience in building REST APIs using Java, RESTEasy. Used Maven and JUnit for project management and testing, and implemented microservices with Jenkins for CI/CD. Proven track record in backend optimization and integration, and fixing critical defects under tight deadlines. Skilled in Java, data structures, OOP principles, and databases. Expertise includes SonarQube for code quality analysis, with over 95% code quality reports, along with Realex payment integrations, RESTEasy for enhanced RESTful services, and MongoDB for NoSQL database management. Skilled in cross-functional collaboration for effective communication.
                 </p>
               </div>
 
@@ -53,22 +53,7 @@ const Resume = () => {
                   November 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Designed and developed responsive user interface from scratch using NextJS, Tailwind CSS, and JavaScript. Currently, working on backend development of the project. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Continuously learning new features in NextJS and staying updated on emerging technologies.
-                </p>
-              </div>
-
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-0 mb-6">
-                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Developer Intern.
-                </h1>
-                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                Kennametal India Limited. 
-                </span>
-                <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
-                  August 2022 - September 2022
-                </span>
-                <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Worked on C# console application for collecting and analyzing license usage data, stored in a Microsoft Access database linked to Power BI. Automated to run every 60 minutes, improving license utilization by 94% across 67 licenses. Utilized C#, .NET framework, Text Mining, Regex functions, Task Scheduling, Batch programming, and VBScript. Experienced in time management, adapting to new technologies, and on-site internship.
+                Designed responsive UIs using Next.js, Tailwind CSS, and JavaScript. Used Git for version control and conducted code reviews for high code quality. Currently enhancing backend development for project functionality. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Actively pursuing knowledge of new features and current with emerging technologies.
                 </p>
               </div>
 
@@ -83,7 +68,22 @@ const Resume = () => {
                   October 2022 - December 2022
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Engaged in building a full-stack movie review application using Java and Spring Boot for the backend, React for the frontend, and MongoDB for the database. Handled critical aspects including endpoint creation, configuration management, dependency handling, environment variable setup, testing, and frontend development. Gain expertise in Java frameworks, server-side operations, and problem-solving during the first internship.
+                Created a full-stack movie review platform utilizing Java, Spring Framework, React.js, and MongoDB. Oversaw endpoint creation, configuration management, dependency handling, and environment variable setup. Gained expertise in various Java frameworks, server-side operations, client-server inter-process communication, advanced problem-solving, code review, and software development best practices.
+                </p>
+              </div>
+
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-0 mb-6">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Software Developer Intern.
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                Kennametal India Limited. 
+                </span>
+                <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
+                  August 2022 - September 2022
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                Developed a C# console application to collect and analyze license usage data in AccessDB, enhancing utilization by 98%. Implemented an automated server solution running every 60 minutes, optimizing license management.    Expertise in crafting and reviewing code using C#, .NET, text mining, regular expressions (Regex), Task Scheduling, Batch Programming, and VBScript.
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Resume = () => {
                   2019 - 2023 |  CGPA : 8.45
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                Recent graduate holding a Bachelor's in Computer Science and Engineering from JSS Academy of Technical Education, Bengaluru, with a CGPA of 8.45. Proficient in a variety of technologies including ReactJS, NextJS, NodeJS, ExpressJS, and MongoDB. Possesses advanced skills in Java, C#, JavaScript, and Python, with hands-on experience in frameworks such as Express, .NET, and Spring. Demonstrates a solid understanding of Data Structures, Algorithms, and Object-Oriented Programming principles.
+                Graduate holding a Bachelor's in Computer Science and Engineering from JSS Academy of Technical Education, Bengaluru, with a CGPA of 8.45. Proficient in a variety of technologies including ReactJS, NextJS, NodeJS, ExpressJS, and MongoDB. Possesses advanced skills in Java, C#, JavaScript, and Python, with hands-on experience in frameworks such as Express, .NET, and Spring. Demonstrates a solid understanding of Data Structures, Algorithms, and Object-Oriented Programming principles.
                 </p>
               </div>
             </div>

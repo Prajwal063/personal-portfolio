@@ -8,10 +8,6 @@ export const data = [
     link: "",
     git: "https://github.com/Prajwal063/movie-review",
   },
-  
-  
-  
-  
   {
     id: 4,
     img: "/assets/weather.png",
@@ -60,28 +56,28 @@ export const qualifications = [
     title: "Systems Engineer, C1.",
     organization: "Tata Consultancy Services",
     date: "June 2023 - Present",
-    description: "Currently employed as a C1 Systems Engineer, specializing in full-stack development and RESTful services. I bring extensive expertise in developing Java REST APIs from scratch, applying SDLC and Agile methodologies, and prioritizing code optimization to boost system efficiency. Proficient in Eclipse, Linux, AIX, Soap UI, SQL Developer, and Putty. Skilled in Java programming, Data Structures, Object-Oriented Programming (OOP) principles, MySQL, and MS SQL databases. Currently advancing my proficiency with Angular JS to broaden my technical capabilities and stay at the forefront of industry trends.",
+    description: "Specialized in full-stack development and RESTful services, with experience in building REST APIs using Java, RESTEasy. Used Maven and JUnit for project management and testing, and implemented microservices with Jenkins for CI/CD. Proven track record in backend optimization and integration, and fixing critical defects under tight deadlines. Skilled in Java, data structures, OOP principles, and databases. Expertise includes SonarQube for code quality analysis, with over 95\% code quality reports, along with Realex payment integrations, RESTEasy for enhanced RESTful services, and MongoDB for NoSQL database management. Skilled in cross-functional collaboration for effective communication."
   },
   {
     id: 2,
     title: "Full Stack Developer.",
     organization: "CosmicTech.io",
-    date: "November 2023 - Present",
-    description: "Designed and developed responsive user interface from scratch using NextJS, Tailwind CSS, and JavaScript. Currently, working on backend development of the project. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Continuously learning new features in NextJS and staying updated on emerging technologies.",
+    date: "November 2023 - June 2024",
+    description: "Designed responsive UIs using Next.js, Tailwind CSS, and JavaScript. Used Git for version control and conducted code reviews for high code quality. Currently enhancing backend development for project functionality. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Actively pursuing knowledge of new features and current with emerging technologies.",
   },
   {
     id: 3,
-    title: "Software Developer Intern.",
-    organization: "Kennametal India Limited.",
-    date: "August 2022 - September 2022",
-    description: "Worked on C# console application for collecting and analyzing license usage data, stored in a Microsoft Access database linked to Power BI. Automated to run every 60 minutes, improving license utilization by 94% across 67 licenses. Utilized C#, .NET framework, Text Mining, Regex functions, Task Scheduling, Batch programming, and VBScript. Experienced in time management, adapting to new technologies, and on-site internship.",
-  },
-  {
-    id: 4,
     title: "Full Stack Developer Intern.",
     organization: "Exposys Data Labs.",
     date: "October 2022 - December 2022",
-    description: "Engaged in building a full-stack movie review application using Java and Spring Boot for the backend, React for the frontend, and MongoDB for the database. Handled critical aspects including endpoint creation, configuration management, dependency handling, environment variable setup, testing, and frontend development. Gain expertise in Java frameworks, server-side operations, and problem-solving during the first internship.",
+    description: "Created a full-stack movie review platform utilizing Java, Spring Framework, React.js, and MongoDB. Oversaw endpoint creation, configuration management, dependency handling, and environment variable setup. Gained expertise in various Java frameworks, server-side operations, client-server inter-process communication, advanced problem-solving, code review, and software development best practices."
+  },
+  {
+    id: 4,
+    title: "Software Developer Intern.",
+    organization: "Kennametal India Limited.",
+    date: "August 2022 - September 2022",
+    description: "Developed a C# console application to collect and analyze license usage data in AccessDB, enhancing utilization by 98%. Implemented an automated server solution running every 60 minutes, optimizing license management.    Expertise in crafting and reviewing code using C#, .NET, text mining, regular expressions (Regex), Task Scheduling, Batch Programming, and VBScript."
   },
 ];
 
@@ -90,5 +86,5 @@ export const education = {
   institution: "JSS Academy of Technical Education, Bengaluru.",
   date: "2019 - 2023",
   cgpa: "8.45",
-  description: "Recent graduate holding a Bachelor's in Computer Science and Engineering from JSS Academy of Technical Education, Bengaluru, with a CGPA of 8.45. Proficient in a variety of technologies including ReactJS, NextJS, NodeJS, ExpressJS, and MongoDB. Possesses advanced skills in Java, C#, JavaScript, and Python, with hands-on experience in frameworks such as Express, .NET, and Spring. Demonstrates a solid understanding of Data Structures, Algorithms, and Object-Oriented Programming principles.",
+  description: "Graduate holding a Bachelor's in Computer Science and Engineering from JSS Academy of Technical Education, Bengaluru, with a CGPA of 8.45. Proficient in a variety of technologies including ReactJS, NextJS, NodeJS, ExpressJS, and MongoDB. Possesses advanced skills in Java, C#, JavaScript, and Python, with hands-on experience in frameworks such as Express, .NET, and Spring. Demonstrates a solid understanding of Data Structures, Algorithms, and Object-Oriented Programming principles.",
 };
