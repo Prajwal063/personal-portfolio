@@ -50,7 +50,7 @@ const Resume = () => {
                 CosmicTech.io
                 </span>
                 <span className=" text-[.9rem] font-semibold text-blue-500 sm:text-base">
-                  November 2023 - Present
+                  November 2023 - June 2024
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 Designed responsive UIs using Next.js, Tailwind CSS, and JavaScript. Used Git for version control and conducted code reviews for high code quality. Involved in enhancing backend development for project functionality. Regularly adapting and working according to client requirements, optimizing image and content loading times for enhanced performance. Actively pursuing knowledge of new features and current with emerging technologies.
