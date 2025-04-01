@@ -10,7 +10,8 @@ const about = () => {
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
   <p className="flex justify-content:normal text-gray-700 font-medium w-full sm:text-sm-center md:text-md-center text-justify">
-  Full-stack developer with 1+ year of experience specializing in Java, RESTEasy, SQL, JavaScript, and object-oriented programming (OOP) principles. Developed websites that solve real-world problems through effective frontend development and backend integration. Hands-on experience in building RESTful services and API design, as well as developing robust microservices for scalability within SDLC projects and Agile methodologies. Proficient in CI/CD pipeline implementation with Jenkins to automate deployments, consistently achieving 95% code quality as measured by SonarQube. Demonstrated expertise in frontend and backend development, ensuring seamless integration, responsive design, and optimal performance. Proven adaptability to new technologies and frameworks.
+  With years of experience as a back-end developer, I specialize in building scalable microservices using Java and RESTEasy. I have solid experience with Docker and Kubernetes, enabling efficient deployment solutions. Skilled in setting up CI/CD pipelines with Jenkins, I ensure smooth software updates. I write detailed JUnit test cases to maintain application stability and reliability. Passionate about continuous learning, I stay updated with industry trends and leverage my strong knowledge of data structures and algorithms to solve problems creatively. I thrive in Agile environments, delivering maintainable, high-quality code, and collaborating with cross-functional teams to achieve project goals.
+  I’m open to new opportunities and excited to contribute to impactful projects. Let’s connect and make a difference together!
         </p>
       </div>
       
