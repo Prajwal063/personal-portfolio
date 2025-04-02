@@ -38,8 +38,22 @@ const Resume = () => {
                   June 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Specialized in full-stack development and RESTful services, with experience in building REST APIs using Java, RESTEasy. Used Maven and JUnit for project management and testing, and implemented microservices with Jenkins for CI/CD. Proven track record in backend optimization and integration, and fixing critical defects under tight deadlines. Skilled in Java, data structures, OOP principles, and databases. Expertise includes SonarQube for code quality analysis, with over 95% code quality reports, along with Realex payment integrations, RESTEasy for enhanced RESTful services, and MongoDB for NoSQL database management. Skilled in cross-functional collaboration for effective communication.
+                Engineered a microservice architecture integrating Realex payment services, member search, JWT authentication, and cookies for session management. Implemented audit logging and debugging capabilities for seamless troubleshooting, with detailed logs and easy-to-use loggers. Documented services with Swagger, maintained code quality standards, and performed unit testing with JUnit and Mockito. Wrote secure, optimized code to uphold system integrity, improve performance, and adhere to best practices.
                 </p>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                Streamlined deployment with Docker and Kubernetes, reducing downtime by 30% and increasing deployment efficiency by 15%. Collaborated with cross-functional teams to ensure backend alignment with frontend requirements, enabling early platform launches and increasing user adoption.
+                </p>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                <strong> Key Accomplishments:</strong>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                Engineered high-performance RESTful APIs, reducing data retrieval time by 40%.
+                Decomposed a complex user journey into 10+ microservices, improving scalability by 50%, flexibility by 30%, and maintainability by 40%.
+                Contributed to all SDLC phases, delivering solutions on tight deadlines and driving revenue growth.
+                Supported post-deployment hyper-care, resolved critical defects, and reviewed 100+ pull requests for service stability.
+                </p>
+                </p>
+
+                
               </div>
 
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)]    p-3 rounded-lg m-0 mb-6">
