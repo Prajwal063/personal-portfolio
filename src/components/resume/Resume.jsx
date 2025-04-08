@@ -4,7 +4,7 @@ import { qualifications, education } from "../../data/data";
 
 const Resume = () => {
   return (
-    <div id="qualification" className="container m-0 mt-16">
+    <div id="qualification" className="container m-auto mt-16">
       {/* heading */}
       <div data-aos="fade-up" className="relative mb-5">
         <h3 className=" text-3xl font-black text-gray-700 sm:text-2xl">
@@ -45,15 +45,23 @@ const Resume = () => {
                 </p>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 <strong> Key Accomplishments:</strong>
+                  <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                    Engineered high-performance RESTful APIs, reducing data retrieval time by 40%.
+                    Decomposed a complex user journey into 10+ microservices, improving scalability by 50%, flexibility by 30%, and maintainability by 40%.
+                    Contributed to all SDLC phases, delivering solutions on tight deadlines and driving revenue growth.
+                    Supported post-deployment hyper-care, resolved critical defects, and reviewed 100+ pull requests for service stability.
+                  </p>
+                </p>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Engineered high-performance RESTful APIs, reducing data retrieval time by 40%.
-                Decomposed a complex user journey into 10+ microservices, improving scalability by 50%, flexibility by 30%, and maintainability by 40%.
-                Contributed to all SDLC phases, delivering solutions on tight deadlines and driving revenue growth.
-                Supported post-deployment hyper-care, resolved critical defects, and reviewed 100+ pull requests for service stability.
+                  <strong> Key Skills & Technologies:</strong>
+                  <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                    Languages & Frameworks: Java, SQL, Data Structures & Algorithms, RESTEasy
+                    Tools & Technologies: Git, JUnit, Mockito, Docker, Kubernetes, Jenkins, Maven, Postman, Linux, AIX
+                    Cloud Platforms & Architecture: AWS, Microservices, Monolithic
+                    Databases: MySQL, MongoDB
+                    Development Methodologies: Agile, SDLC, CI/CD, Application Resiliency, Security
+                  </p>
                 </p>
-                </p>
-
-                
               </div>
 
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)]    p-3 rounded-lg m-0 mb-6">
