@@ -2,24 +2,29 @@ import React from "react";
 
 const SkillCard = ({ title, skills, images }) => {
   return (
-    <div data-aos="zoom-in" className="flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg m-5">
-      <div className="bg-white-200 w-64 h-64 p-1 m-1 text-[1.1rem] text-justify break-words overflow-auto">
-        <h1>{title}</h1>
-        {skills.map((skill, index) => (
-          <div key={index} className="text-[.8rem] text-justify break-words m-2 p-2 bg-blue-200 rounded -md shadow -lg inline-block">
-            {skill}
-          </div>
-        ))}
+    <div data-aos="zoom-in" className="flex flex-col gap-1 sm:gap-1 border-2 border-blue-400 shadow-[0px_0px_8px_0.5px_rgba(0,0,0,0.1)] p-2 rounded-md m-3">
+  <div className="bg-white-200 w-52 h-52 p-1 m-1 text-[0.9rem] text-justify break-words overflow-auto">
+    <h1 className="text-[1rem] font-semibold mb-0">{title}</h1>
+    {skills.map((skill, index) => (
+      <div
+        key={index}
+        className="text-[0.8rem] text-justify break-words m-1 p-1 bg-blue-200 rounded shadow inline-block"
+      >
+        {skill}
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+
   );
 };
 
 const Skills = () => {
-  const frontendSkills = ['Java', 'JavaScript', 'TypeScript', 'C#', 'SQL', 'LaTeX'];
-  const backendSkills = ['React.js', 'Next.js', 'Node.js', 'Express.js', 'Spring Boot', 'Mongoose', 'Bootstrap', 'Tailwind', 'RESTEasy'];
-  const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'MSSQL', 'Firebase'];
-  const devopsSkills = ['Github', 'Gitlab', 'Git', 'GitHub Actions', 'Jenkins', 'CI/CD', 'Maven', 'REST APIs', 'Soap UI', 'Postman'];
+  const frontendSkills = ['Java', 'SQL', 'LaTeX', 'RESTEasy', 'SpringBoot', 'RESTEasy', 'Bootstrap', 'Tailwind'];
+  const backendSkills = ['Git', 'JUnit', 'Mockito', 'Docker', 'Kubernetes', 'Jenkins', 'Maven', 'Postman', 'Linux', 'AIX', 'Jira', 'React.js', 'REST APIs', 'Mongoose' ];
+  const cloudSkills = ['AWS', 'Microservices', 'Monolithic', 'REST'];
+  const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'MSSQL'];
+  const devopsSkills = ['Agile', 'SDLC', 'CI/CD', 'Maven',  'Soap UI', 'Postman'];
 
   const images = {
     java: "/assets/java.png",
@@ -56,10 +61,11 @@ const Skills = () => {
         {/* content*/}
         <div className="md:flex-col left flex-1 flex items-center justify-center">
           {/* skill cards */}
-          <SkillCard title="Languages" skills={frontendSkills} images={images} />
-          <SkillCard title="Libraries" skills={backendSkills} images={images} />
-          <SkillCard title="Database" skills={databaseSkills} images={images} />
-          <SkillCard title="Others" skills={devopsSkills} images={images} />
+          <SkillCard title="Languages & Frameworks" skills={frontendSkills} images={images} />
+          <SkillCard title="Tools & Technologies" skills={backendSkills} images={images} />
+          <SkillCard title="Databases" skills={databaseSkills} images={images} />
+          <SkillCard title="Cloud & Architecture" skills={cloudSkills} images={images} />
+          <SkillCard title="Development Methodologies" skills={devopsSkills} images={images} />
         </div>
 
         {/* icons */}
