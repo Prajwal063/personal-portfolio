@@ -26,7 +26,7 @@ const Hero = () => {
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["Full Stack Developer", 2000, "Web Developer", 2000, "Software Developer", 2000,]}
+              sequence={["Software Developer", 1000, "Back-end Developer", 1000, "Web Developer", 1000,]}
               speed={45}
               wrapper="h2"
               repeat={Infinity}

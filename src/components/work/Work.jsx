@@ -49,57 +49,57 @@ const Work = () => {
         </p>
       </div>
       {/* card */}
-      <div className="card-wrapper mx-auto w-[90%] sm:w-fit md:w-fit mt-5">
-        <div className="card-box grid grid-cols-3 space-y-2 space-x-2 gap-10 w-full md:gap-8 md:grid-cols-1 sm:gap-8 sm:grid-cols-1 sm:space-y-0 md:space-y-0">
-          {currentCards.map((data) => (
-            <div
-              data-aos="zoom-in"
-              key={data.id}
-              className="flex flex-col justify-center items-center gap-2"
-            >
-              <POPUP className="img-content relative">
-                <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto">
-                  <img
-                    src={data.img}
-                    alt={data.title}
-                    className="object-fit hover:scale-125 transition duration-500 cursor-pointer h-full w-full object-cover"
-                  />
-                </div>
-                <div
-                  className={`popup w-full h-[280px] shadow-xl rounded-md overflow-auto sm:h-[260px] sm:w-[92%] p-1`}
-                >
-                  <p className="text-black text-base leading-[1.2] text-justify w-[90%] md:leading-[1] sm:leading-[1]">
-                    {data.desc}
-                  </p>
-                  <div className="flex items-center justify-center gap-4">
-                    <Link
-                      to={data.link}
-                      target="_blank"
-                      className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                    >
-                      <RxExternalLink className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
-                      <p className="text-black">Demo</p>
-                    </Link>
-                    <br className="w-[2px] bg-white" />
-                    <Link
-                      to={data.git}
-                      target="_blank"
-                      className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                    >
-                      <AiOutlineGithub className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
-                      <p className="text-black">Code</p>
-                    </Link>
-                  </div>
-                </div>
-              </POPUP>
-              <p className="text-gray-800 text-xl font-medium sm:text-lg">
-                {data.title}
-              </p>
+<div className="card-wrapper mx-auto w-[90%] sm:w-fit md:w-fit mt-5">
+  <div className="card-box grid grid-cols-3 space-y-2 space-x-2 gap-8 w-full md:gap-6 md:grid-cols-1 sm:gap-6 sm:grid-cols-1 sm:space-y-0 md:space-y-0">
+    {currentCards.map((data) => (
+      <div
+        data-aos="zoom-in"
+        key={data.id}
+        className="flex flex-col justify-center items-center gap-2"
+      >
+        <POPUP className="img-content relative">
+          <div className="h-[260px] w-[350px] hover:scale-110 transition duration-500 cursor-pointer shadow-md rounded-md overflow-hidden sm:h-[240px] sm:w-[90%] mx-auto">
+            <img
+              src={data.img}
+              alt={data.title}
+              className="object-fit hover:scale-110 transition duration-500 cursor-pointer h-full w-full object-cover"
+            />
+          </div>
+          <div
+            className="popup w-full h-[260px] shadow-md rounded-md overflow-auto sm:h-[240px] sm:w-[90%] p-1"
+          >
+            <p className="text-black text-[0.95rem] leading-[1.2] text-justify w-[90%] md:leading-[1] sm:leading-[1]">
+              {data.desc}
+            </p>
+            <div className="flex items-center justify-center gap-3">
+              <Link
+                to={data.link}
+                target="_blank"
+                className="mt-2 rounded-md shadow-sm p-1 px-2 flex gap-2 items-center justify-center font-medium"
+              >
+                <RxExternalLink className="text-black bg-white rounded-full border w-[32px] h-[32px] p-1.5" />
+                <p className="text-black text-sm">Demo</p>
+              </Link>
+              <Link
+                to={data.git}
+                target="_blank"
+                className="mt-2 rounded-md shadow-sm p-1 px-2 flex gap-2 items-center justify-center font-medium"
+              >
+                <AiOutlineGithub className="text-black bg-white rounded-full border w-[32px] h-[32px] p-1.5" />
+                <p className="text-black text-sm">Code</p>
+              </Link>
             </div>
-          ))}
-        </div>
-        <div className="center mt-8">{paginationButtons}</div>
+          </div>
+        </POPUP>
+        <p className="text-gray-800 text-lg font-medium sm:text-base">
+          {data.title}
+        </p>
       </div>
+    ))}
+  </div>
+  <div className="center mt-8">{paginationButtons}</div>
+</div>
+
     </div>
   );
 };
