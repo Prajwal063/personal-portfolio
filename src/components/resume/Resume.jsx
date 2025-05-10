@@ -38,28 +38,29 @@ const Resume = () => {
                   June 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Engineered a microservice architecture integrating Realex payment services, member search, JWT authentication, and cookies for session management. Implemented audit logging and debugging capabilities for seamless troubleshooting, with detailed logs and easy-to-use loggers. Documented services with Swagger, maintained code quality standards, and performed unit testing with JUnit and Mockito. Wrote secure, optimized code to uphold system integrity, improve performance, and adhere to best practices.
+                Engineered a microservice architecture, integrating Realex payment services, JWT authentication, and cookies for session management. Implemented audit logging and debugging for troubleshooting using the ELK stack for log aggregation and analysis across all environments, documenting services with Swagger. Ensured high-quality code through unit testing with JUnit and Mockito, writing secure, optimized code to improve performance and integrity. Applied design patterns to enhance system design and maintainability. Streamlined deployment with Docker and Kubernetes, reducing downtime by 30% and increasing efficiency by 15%. Integrated Redis caching, reducing latency by 25%. Leveraged version control tools to manage code effectively. Collaborated with cross-functional teams, demonstrating strong communication skills to align backend with frontend, enabling early platform launches and boosting adoption.
                 </p>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                Streamlined deployment with Docker and Kubernetes, reducing downtime by 30% and increasing deployment efficiency by 15%. Collaborated with cross-functional teams to ensure backend alignment with frontend requirements, enabling early platform launches and increasing user adoption.
+                Streamlined deployment with Docker and Kubernetes, reducing downtime by 30% and increasing efficiency by 15%. Integrated Redis caching, reducing latency by 25%. Leveraged version control tools to manage code effectively. Collaborated with cross-functional teams, demonstrating strong communication skills to align backend with frontend, enabling early platform launches and boosting adoption.
                 </p>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                 <strong> Key Accomplishments:</strong>
                   <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                    Engineered high-performance RESTful APIs, reducing data retrieval time by 40%.
-                    Decomposed a complex user journey into 10+ microservices, improving scalability by 50%, flexibility by 30%, and maintainability by 40%.
-                    Contributed to all SDLC phases, delivering solutions on tight deadlines and driving revenue growth.
-                    Supported post-deployment hyper-care, resolved critical defects, and reviewed 100+ pull requests for service stability.
+                  Engineered high-performance RESTful APIs, reducing data retrieval time by 40%. Decomposed a complex user journey into 10+ microservices, improving scalability by 50%, flexibility by 30%, and maintainability by 40%. Achieved over 95% code quality with SonarQube for continuous improvement. Contributed across all SDLC phases, delivering high-quality solutions under tight deadlines, driving revenue growth. Supported post-deployment hyper-care, resolved critical defects, and reviewed over 100 pull requests to ensure service stability for 3 million+ users.
                   </p>
                 </p>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   <strong> Key Skills & Technologies:</strong>
                   <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                    Languages & Frameworks: Java, SQL, Data Structures & Algorithms, RESTEasy
-                    Tools & Technologies: Git, JUnit, Mockito, Docker, Kubernetes, Jenkins, Maven, Postman, Linux, AIX
+                    Languages & Frameworks: Java, Spring Boot, SQL, RESTEasy, Data Structures & Algorithms
+                    <p className=" text-[.9rem] text-justify break-words text-gray-500"></p>
+                    Tools & Technologies: Git, Guthub Actions, Gitlab JUnit, Mockito, Docker, Kubernetes, Jenkins, Maven, ELK stack, Postman, Linux, AIX
+                    <p className=" text-[.9rem] text-justify break-words text-gray-500"></p>
                     Cloud Platforms & Architecture: AWS, Microservices, Monolithic
-                    Databases: MySQL, MongoDB
-                    Development Methodologies: Agile, SDLC, CI/CD, Application Resiliency, Security
+                    <p className=" text-[.9rem] text-justify break-words text-gray-500"></p>
+                    Databases: MySQL, MongoDB, PostgreSQL
+                    <p className=" text-[.9rem] text-justify break-words text-gray-500"></p>
+                    Methodologies: Agile, SDLC, CI/CD, Application Resiliency, Security, System Design
                   </p>
                 </p>
               </div>
