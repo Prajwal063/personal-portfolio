@@ -21,7 +21,7 @@ const SkillCard = ({ title, skills, images }) => {
 
 const Skills = () => {
   const frontendSkills = ['Java', 'SQL', 'LaTeX', 'RESTEasy', 'SpringBoot', 'RESTEasy', 'Bootstrap', 'Tailwind'];
-  const backendSkills = ['Git', 'JUnit', 'Mockito', 'Docker', 'Kubernetes', 'Jenkins', 'Maven', 'Postman', 'Linux', 'AIX', 'Jira', 'React.js', 'REST APIs', 'Mongoose' ];
+  const backendSkills = ['Git', 'JUnit', 'Mockito', 'Docker', 'Kubernetes', 'Jenkins', 'Maven', 'ELK stack', 'Postman', 'Linux', 'AIX', 'Jira', 'React.js', 'REST APIs', 'Mongoose' ];
   const cloudSkills = ['AWS', 'Microservices', 'Monolithic', 'REST'];
   const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'MSSQL'];
   const devopsSkills = ['Agile', 'SDLC', 'CI/CD', 'Maven',  'Soap UI', 'Postman'];
