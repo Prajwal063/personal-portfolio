@@ -20,11 +20,11 @@ const SkillCard = ({ title, skills, images }) => {
 };
 
 const Skills = () => {
-  const frontendSkills = ['Java', 'SQL', 'LaTeX', 'RESTEasy', 'SpringBoot', 'RESTEasy', 'Bootstrap', 'Tailwind'];
-  const backendSkills = ['Git', 'JUnit', 'Mockito', 'Docker', 'Kubernetes', 'Jenkins', 'Maven', 'ELK stack', 'Postman', 'Linux', 'AIX', 'Jira', 'React.js', 'REST APIs', 'Mongoose' ];
-  const cloudSkills = ['AWS', 'Microservices', 'Monolithic', 'REST'];
-  const databaseSkills = ['MySQL', 'MongoDB', 'PostgreSQL', 'MSSQL'];
-  const devopsSkills = ['Agile', 'SDLC', 'CI/CD', 'Maven',  'Soap UI', 'Postman'];
+  const frontendSkills = ['Java', 'RESTEasy', 'SpringBoot', 'SQL', 'JavaScript', 'Mongoose', 'Bootstrap', 'Tailwind', 'LaTeX'];
+  const backendSkills = ['Git', 'GitHub Actions', 'GitLab', 'Jenkins', 'Maven', 'JUnit', 'Mockito', 'Docker', 'Kubernetes', 'Linux', 'AIX' ];
+  const cloudSkills = ['MySQL', 'PostgreSQL', 'MongoDB', 'AWS'];
+  const databaseSkills = ['Agile', 'SDLC', 'CI/CD', 'Application Resiliency', 'Security', 'Microservices', 'Monolithic'];
+  const devopsSkills = ['OOP', 'Data Structures', 'Algorithms', 'System Design', 'API Security', 'Authentication', 'Authorization', 'Caching', 'Monitoring'];
 
   const images = {
     java: "/assets/java.png",
@@ -63,9 +63,9 @@ const Skills = () => {
           {/* skill cards */}
           <SkillCard title="Languages & Frameworks" skills={frontendSkills} images={images} />
           <SkillCard title="Tools & Technologies" skills={backendSkills} images={images} />
-          <SkillCard title="Databases" skills={databaseSkills} images={images} />
-          <SkillCard title="Cloud & Architecture" skills={cloudSkills} images={images} />
-          <SkillCard title="Development Methodologies" skills={devopsSkills} images={images} />
+          <SkillCard title="Databases & Cloud" skills={cloudSkills} images={images} />
+          <SkillCard title="Methodologies & Architecture" skills={databaseSkills} images={images} />
+          <SkillCard title="Concepts" skills={devopsSkills} images={images} />
         </div>
 
         {/* icons */}
